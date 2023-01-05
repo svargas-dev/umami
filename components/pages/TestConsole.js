@@ -44,7 +44,6 @@ export default function TestConsole() {
       <Head>
         {typeof window !== 'undefined' && website && (
           <script
-            async
             defer
             data-website-id={website.websiteUuid}
             src={`${basePath}/umami.js`}
